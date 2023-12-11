@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Push to docker hub') {
             when {
-                branch 'master
+                branch 'master'
             }
             steps {
                 script {
